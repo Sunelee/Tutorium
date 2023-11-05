@@ -67,7 +67,7 @@ import {
 } from '../actions/messageActions'; // Update the path with the correct location of the file
 
 
-axios.defaults.baseURL = 'https://tutorium-api.onrender.com';
+axios.defaults.baseURL = 'https://etutorium-api.onrender.com';
 
 
 // Auth Actions

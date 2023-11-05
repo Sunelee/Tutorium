@@ -2,7 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import  cartSlice  from '../slice/cartSlice'; // Import your cart slice
 
-const API_BASE_URL = 'https://tutorium-api.onrender.com'; // Update this to your API URL
+const API_BASE_URL = 'https://etutorium-api.onrender.com'; // Update this to your API URL
 
 export const addToCart = createAsyncThunk('cart/addToCart', async (courseId, thunkAPI) => {
   try {

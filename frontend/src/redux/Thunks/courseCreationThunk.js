@@ -2,7 +2,7 @@ import { createCourseStart, createCourseSuccess, createCourseFailure, storeCours
 import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-const API_BASE_URL = 'https://tutorium-api.onrender.com';
+const API_BASE_URL = 'https://etutorium-api.onrender.com';
 
 // Thunk to store course details in Redux
 export const storeCourseDetailsInRedux = (courseDetails) => (dispatch) => {

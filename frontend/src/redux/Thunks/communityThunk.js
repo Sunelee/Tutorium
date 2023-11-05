@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
-const API_BASE_URL = 'https://tutorium-api.onrender.com';
+const API_BASE_URL = 'https://etutorium-api.onrender.com';
 
 // Thunk for fetching threads
 export const fetchThreads = createAsyncThunk('community/fetchThreads', async (_, thunkAPI) => {

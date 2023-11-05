@@ -1,7 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import authSlice  from '../slice/authSlice'; 
-const API_BASE_URL = 'https://tutorium-api.onrender.com'; // Update with your API URL
+const API_BASE_URL = 'https://etutorium-api.onrender.com'; // Update with your API URL
 
 // Thunk to log in a user
 export const loginUser = createAsyncThunk(
